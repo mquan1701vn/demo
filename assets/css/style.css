@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+ul,ol {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+html {
+    font-size: 62.5%;
+}
+.flex__box {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100%;
+}
+
+/* ====== menu ======== */
+.header {
+    height: 8.8rem;
+    background-color:white;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.header .menu__ic {
+    display: none;
+    font-size: 4rem;
+}
+.header__logo {
+
+}
+.header__logo img {
+    max-width: 100%;
+    object-fit: cover;
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+.menu__list{
+    display: flex;
+}
+.menu__item{
+    margin: 0 1rem;
+    position: relative;
+}
+.menu__item:hover .submenu__list{
+    max-height: 100vh;
+}
+.menu__link {
+    display: block;
+    font-size: 1.6rem;
+    padding: 3.4rem 1.4rem;
+    color: #3f75b0;
+	white-space: nowrap;
+ 
+
+}
+.menu__contact {
+    margin-left: 3rem;
+}
+.menu__contact a {
+    font-size: 2rem;
+    color: #3f75b0;
+    font-weight: bold;
+
+}
+.submenu__list{
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 500ms ease;
+    background-color: white;
+    padding-right: 5rem;
+    white-space: nowrap;
+    
+}
+.submenu__item {
+
+}
+.submenu__item:hover .submenu__link {
+    color: #20446e;
+}
+.submenu__link{
+    display: block;
+    padding: 1.6rem;
+}
+
+/* ====== banner ======  */
+.banner {
+    min-height: 80vh;
+    background-image: url("http://adilfoods.com/wp-content/uploads/2016/03/slide-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C4848;
+}
+.banner__content{
+    color: white;
+    text-align: center;
+}
+.banner__content .banner__title{
+    font-size: 4rem;
+ 
+}
+.banner__content .banner__asc{
+    padding: 2rem 0;
+    font-size: 3rem;
+    
+}
+.banner__content .banner__btn{
+    display: inline-block;
+    padding: 1.6rem 3.2rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+    background-color: #3f75b0;
+    border-radius: 0.5rem;
+
+}
+/* ======= business ===== */
+.business {
+    padding: 6rem 0;
+    background-color: #efeded;
+}
+.business__title{
+    text-align: center;
+}
+.business__title h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.business__title p {
+    font-size: 3rem;
+    margin-bottom: 8rem;
+}
+.business__item{
+    margin-bottom: 1rem;
+}
+.business__item a {
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+}
+.business__item i{
+    font-size: 12rem;
+    margin-bottom: 2rem;
+    color: #3f75b0;
+}
+.business__item p {
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+.business__button {
+    margin: 6rem;
+    text-align: center;
+}
+.business__button .btn{
+    display: inline-block;
+    padding: 1.6rem 3.2rem;
+    background-color: #3f75b0;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+/* ===== checkout ==== */
+.checkout{
+    padding: 10rem 0;
+}
+.checkout__content{}
+.checkout__title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.checkout__asc {
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+.checkout__btn{
+    display: inline-block;
+    padding: 1.2rem 3.2rem;
+    font-size: 2rem;
+    background-color: #3f75b0;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.checkout__bg {
+    background-image: url("https://www.oyova.com/wp-content/uploads/2015/11/revital_websites.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+/* ===== partner  ========= */
+.partner{
+    background-color: #efeded;
+    padding: 10rem 0;
+}
+.partner__title{}
+.partner__title h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.partner__title p{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.partner__logo {
+    margin-bottom: 1rem;
+}
+.partner__logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* ==== marketing ==== */
+.marketing {
+    padding: 5rem 0;
+}
+.marketing__product {
+    margin-bottom: 1.6rem;
+    text-align: center;
+}
+.marketing__product img{
+    width: 100%;
+    display: block;
+    object-fit: contain;
+}
+.marketing__asc h4 {
+    margin: 1rem 0;
+    font-size: 1.6rem;
+}
+.marketing__asc p {
+    font-size: 1.4rem;
+}
+.marketing__button{
+    margin: 4rem 0;
+    text-align: center;
+}
+.marketing__button .btn {
+    display: inline-block;
+    padding: 1.2rem 3.2rem;
+    font-size: 2rem;
+    background-color: #3f75b0;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+/* ==== question ==== */
+.question {
+    padding: 2rem 0;
+    background-color: #efeded;
+}
+.question .question__title{
+    margin-bottom: 2rem;
+}
+.question .question__title h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.question .question__title p{
+    font-size: 1.6rem;
+}
+.input{
+    margin-bottom: 2rem;
+    width: 100%;
+    border: none;
+    background-color: white;
+    font-size: 1.6rem;
+    padding: 1rem;
+    outline: none;
+}
+textarea {
+    width: 100%;
+    outline: none;
+    padding: 1rem 1rem;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+/* ====== footer ========= */
+.footer {
+    background-color: #284275;
+}
+.footer__top {
+    padding: 3rem 0;
+}
+.footer__menu h6 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.footer__menulink{
+    display: inline-block;
+    padding: 1rem 0;
+    color: white;
+    font-size: 1.6rem;
+}
+.footer__text{
+    margin-bottom: 1rem;
+}
+.footer__text h6{
+    color: white;
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.footer__text p{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.footer__text a{
+    display: inline-block;
+    padding: 1.2rem 3.2rem;
+    font-size: 2rem;
+    background-color: #3f75b0;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+
+/* =============== responsive ================ */
+
+
+@media (max-width: 767px){
+    
+    html{
+        font-size: 50.5%;
+    }
+    .header .header__menu {
+        display: none;
+    }
+    .header .menu__ic{
+        display: block;
+    }
+    .checkout__content {
+        text-align: center;
+    }
+    .checkout__bg {
+        display: none;
+    }
+}
+@media (min-width: 768px){
+    .checkout__bg {
+        display: block;
+    }
+}
