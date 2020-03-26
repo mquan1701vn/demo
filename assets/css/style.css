@@ -56,7 +56,7 @@ html {
 }
 .menu__link {
     display: block;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     padding: 3.4rem 1.4rem;
     color: #3f75b0;
 	white-space: nowrap;
@@ -143,7 +143,7 @@ html {
     margin-bottom: 1rem;
 }
 .business__title p {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 8rem;
 }
 .business__item{
@@ -184,11 +184,11 @@ html {
 }
 .checkout__content{}
 .checkout__title{
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 600;
 }
 .checkout__asc {
-    font-size: 1.6rem;
+    font-size: 2rem;
     margin: 2rem 0;
 }
 .checkout__btn{
@@ -215,7 +215,7 @@ html {
 .partner__title{}
 .partner__title h2{
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 1rem;
 }
 .partner__title p{
@@ -248,10 +248,10 @@ html {
 }
 .marketing__asc h4 {
     margin: 1rem 0;
-    font-size: 1.6rem;
+    font-size: 2.2rem;
 }
 .marketing__asc p {
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 .marketing__button{
     margin: 4rem 0;
@@ -275,11 +275,11 @@ html {
     margin-bottom: 2rem;
 }
 .question .question__title h3{
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 600;
 }
 .question .question__title p{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 .input{
     margin-bottom: 2rem;
@@ -316,7 +316,7 @@ textarea {
     display: inline-block;
     padding: 1rem 0;
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 .footer__text{
     margin-bottom: 1rem;
@@ -324,12 +324,12 @@ textarea {
 .footer__text h6{
     color: white;
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
 }
 .footer__text p{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
     color: white;
 }
@@ -350,7 +350,7 @@ textarea {
 @media (max-width: 767px){
     
     html{
-        font-size: 50.5%;
+        font-size: 55.5%;
     }
     .header .header__menu {
         display: none;
